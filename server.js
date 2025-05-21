@@ -14,7 +14,7 @@ const app = express();
 const PORT = 4000;
 const TOKEN = process.env.TOKEN;
 
-const allowedOrigins = ['https://loono.vercel.app', 'https://infinitym.vercel.app', 'https://loono.boo'];
+const allowedOrigins = ['https://wooki.vercel.app', 'https://infinitym.vercel.app', 'https://loono.boo'];
 
 app.use(
    cors({

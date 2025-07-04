@@ -14,7 +14,7 @@ const app = express();
 const PORT = 4000;
 const TOKEN = process.env.TOKEN;
 
-const allowedOrigins = ['https://aquin-sable.vercel.app', 'https://aquin.xyz', 'kuro-seven.vercel.app'];
+const allowedOrigins = ['https://aquin-sable.vercel.app', 'https://kuro.universe', 'kuro-seven.vercel.app'];
 
 app.use(
    cors({

@@ -7,14 +7,14 @@ const rateLimit = require('express-rate-limit');
 require('dotenv').config();
 
 const bot1Prompt = JSON.parse(
-   fs.readFileSync('./prompts/aqin.json', 'utf8')
+   fs.readFileSync('./prompts/kuro.json', 'utf8')
 );
 
 const app = express();
 const PORT = 4000;
 const TOKEN = process.env.TOKEN;
 
-const allowedOrigins = ['https://aquin-sable.vercel.app', 'https://aquin.xyz', 'https://loono.boo'];
+const allowedOrigins = ['https://aquin-sable.vercel.app', 'https://aquin.xyz', 'kuro-seven.vercel.app'];
 
 app.use(
    cors({
